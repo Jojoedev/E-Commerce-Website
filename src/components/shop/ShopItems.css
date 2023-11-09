@@ -1,0 +1,46 @@
+
+.shopitems{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    cursor: pointer;
+    padding-top: 80px;
+    margin: 0 50px 0 50px;
+
+}
+
+.description{
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+}
+
+.items{
+    width: 300px;
+    height: 250px;
+    
+}
+
+.itemList{
+padding: 20px;
+border: 1px rgb(70, 63, 50) solid;
+border-radius: 10px;
+}
+
+.addBtn{
+    background-color: rgb(60, 0, 128);
+    margin: 10px;
+    color: azure;
+    cursor: pointer;
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+.removeBtn{
+    background-color: teal;
+    margin: 10px;
+    color: white;
+    cursor: pointer;
+    border-radius: 7px;
+    font-size: 15px;
+}

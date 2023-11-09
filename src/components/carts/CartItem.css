@@ -1,0 +1,26 @@
+
+img{
+    width: 300px;
+    height: 250px;
+
+}
+.inputData{
+    width: 50px;
+}
+
+.subTotal{
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+}
+
+.cart{
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+
+}
+.cartItem{
+    padding: 20px;
+   box-sizing: content-box;
+}
